@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../assets/css/photon.css" />
+    <link rel="stylesheet" href="../assets/css/landscape.css" />
+  </head>
+  <body>
+    <div class="window">
+      <div class="window-content padded-more">
+        <form>
+          <div class="form-group">
+            <label>Save Pictures To:</label>
+            <div id="directory-label">No directory</div>
+            <div>
+              <input type="hidden" id="directory-input" name="directory" value="">
+              <button id="directory-button" class="btn btn-large btn-primary">Select location</button>
+            </div>
+          </div>
+          <div class="form-group">
+            <label>Get From URL</label>
+            <input type="number" id="port-input" name="port" value="" class="form-control">
+          </div>
+          <div class="checkbox">
+            <label>
+              <input type="checkbox" id="pug-input" name="start"> Enable pug (jade) templates
+            </label>
+          </div>
+          <div class="checkbox">
+            <label>
+              <input type="checkbox" id="start-input" name="start" checked> Start the server
+            </label>
+          </div>
+          <!--
+          <div class="checkbox">
+            <label>
+              <input type="checkbox" id="index-input" name="index" checked> Auto-index
+            </label>
+          </div>
+          <div class="checkbox">
+            <label>
+              <input type="checkbox" id="download-input" name="download"> Télécharger les fichiers
+            </label>
+          </div>
+          -->
+        </form>
+      </div>
+      <footer class="toolbar toolbar-footer">
+        <div class="toolbar-actions">
+          <button id="close-button" class="btn btn-default">
+            Cancel
+          </button>
+
+          <button id="save-button" class="btn btn-primary pull-right">
+            OK
+          </button>
+        </div>
+      </footer>
+    </div>
+  </body>
+
+  <script>
+    require('../src/renderers/add-server-renderer.js')
+  </script>
+</html>

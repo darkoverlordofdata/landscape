@@ -1,4 +1,4 @@
-# landscape
+# landscape<br/> ![logo](./assets/icons/icon.png) 
 
 a generic daily wallpaper
 
@@ -9,3 +9,6 @@ curl $url ~/Pictures/Landscape/daily.jpg
 
 
 technical inspiration: https://github.com/BenjaminBini/barmaid
+
+
+## work in progress

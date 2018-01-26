@@ -1,4 +1,4 @@
-# landscape<br/> ![logo](./assets/icons/icon.png) 
+# landscape<br/> ![logo](./assets/icons/icon-black.png) 
 
 a generic daily wallpaper
 
